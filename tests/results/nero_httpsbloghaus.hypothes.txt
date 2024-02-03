@@ -1,0 +1,22 @@
+
+Aktualisiert am 19.02.2020
+Um Sichtbarkeit und Leserschaft auf einem Wissenschaftsblog zu generieren, empfiehlt sich der Einsatz eines Twitteraccount, über den Artikel geteilt und ein Austausch mit der Community angestoßen werden kann.
+In diesem Blogbeitrag zeigen wir, wie man den eigenen  Twitterfeed direkt und datenschutzkonform in ein Blog einbetten kann. So sehen Leserinnen und Leser auf einen Blick, was sich in einem Twitter-Konto tut. Das Prinzip hierfür ist denkbar einfach: Im Backend Ihres Blogs richten Sie ein Text-Widget ein, in das Sie einfach die URL Ihres Twitterfeeds kopieren – fertig!
+Hier eine Schritt-für-Schritt-Übersicht:
+
+Sie wählen Design > Widgets aus.
+
+
+
+Nun fügen Sie ein Text-Widget an den von Ihnen gewählten Ort ein. Sie können das Widget auch anschließend noch verschieben.
+
+
+
+Nun kopieren Sie die URL Ihres Twitter-Kontos (z.B.: https://twitter.com/dehypotheses) in das Textfeld, speichern und klicken auf „fertig“.
+
+
+Und so sieht das bei uns im Redaktionsblog aus:
+
+Übrigens: Die persönlichen Daten der Nutzerinnen und Nutzer, die auf das Feed klicken, werden nicht an Twitter übermittelt. Lediglich die URL der Seite, in die das Feed eingebettet ist (in diesem Fall Ihr Blog) wird weitergegeben.
+Sollte das Twitterfeed im Mozilla Firefox Browser nur als Hyperlink angezeigt werden, liegt das möglicherweise daran, dass die Einstellungen Seitenelemente blockieren,  über die Drittanbieter  über das Seite Blog-Daten von Nutzern erfassen könnten. Wenn das der Fall ist, findet sich hier eine Erklärung, wie die Einstellungen entsprechend geändert werden können
+Viel Erfolg beim Ausprobieren!

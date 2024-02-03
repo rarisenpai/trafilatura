@@ -1,0 +1,37 @@
+Von Gregory Lipinski
+Herr Vilanek, in Deutschland gibt es sieben Millionen TV-Haushalte, die DVB-T nutzen. Damit können sie ihre Fernsehprogramme kostenlos ohne Kabel und Satellit empfangen. Jetzt planen Sie, den TV- und Radio-Dienstleister Media Broadcast zu übernehmen. Damit wollen Sie künftig Privathaushalten Fernsehen in Full-HD-Qualität verschaffen – allerdings gegen Gebühr. Glauben Sie, dass diese Privathaushalte wirklich bereit sind, auch für diese Zusatzleistung Geld auf den Tisch zu legen?
+Christoph Vilanek: HD Bildqualität kostet heute extra, egal ob via Satellit, via Entertain, via Kabel einzeln oder festinstalliert im Mehrfamilienhaus. Ich gebe zu, dass das nicht allen Konsumenten bewusst ist, aber das ist nur eine Frage der Kommunikation. Im Unterschied zu den genannten Anbietern liefert DVB‐T2 sogar Full HD. Ich glaube also, dass der Kunde verstehen wird, wofür er bezahlt – nämlich für etwas, was es sonst eigentlich noch nicht gibt. Aber genau das ist die Erfahrung, die Freenet mitbringt – Endkundenvertriebskompetenz.
+Was kostet den Konsumenten Ihre Dienstleistung?
+Wir prüfen gerade verschiedene Preispunkte und Modelle. Aus wettbewerblichen Gründen will ich heute noch nichts sagen, aber in jedem Fall wird das Angebot billiger sein als alle anderen Mitbewerber.
+Mit wie vielen Privatkunden rechnen Sie ab 2017 und den folgenden Jahren?
+Wir sind ein börsennotiertes Unternehmen und haben dazu noch keine Details veröffentlicht. Daher kann ich nichts dazu sagen. Aber zur Orientierung – heute empfangen in etwa 10 Prozent der TV‐Geräte ihr Bild via DVB‐T; in unserem Business Plan haben wir nur einen Anteil davon als zahlende Abonnenten unterstellt. Das Potenzial im Bereich mobiles Fernsehen haben wir noch gar nicht berücksichtigt.
+Ihre Kunden zahlen dafür, dass Sie private Programme in Top-HD-Qualität empfangen. Was ist mit Sendungen der öffentlich-rechtlich Sender? Hier zahlen die Kunden nichts für HD. Bleibt dieses Angebot der öffentlich-rechtlichen Anstalten für ihre künftigen Abnehmer weiterhin kostenlos?
+Absolut richtig – diese Kanäle wird es weiterhin ohne jede Gebühr zu sehen geben.
+Sie haben sich an dem Münchener Unternehmen Exaring beteiligt, das über ein eigenes Glasfasernetz 23 Millionen Privathaushalte in Deutschland erreicht. Damit wollen Sie den Kunden Video-Anrufdienste, Filmaufnahmen und Online-Spiele auf dem Fernsehen anbieten. Wann werden Sie hier mit einem entsprechenden Angebot auf dem Markt sein?
+Aktuell läuft unser Friendly User Test und wir gewinnen täglich wertvolle Erkenntnisse. Diese Tests werden wir in Q2 deutlich ausweiten und wollen Ende Q3 in den bundesweiten Launch gehen.
+Müssen ihre Kunden hierfür ein zusätzliches Paket buchen und wie teuer ist dies?
+Ja, wir wollen hier aber sehr flexible, maßgeschneiderte Optionen anbieten, die der Kunden quasi beliebig kombinieren kann; monatlich kündbar oder in Kombination mit zum Beispiel einem Chromecast mit Mehrmonatsverpflichtung. Auch hier gilt: wir kommunizieren die Preise so spät wie möglich und so früh wie nötig.
+Nutzen Sie die Dienste fürs Smartphone und Tablet auch, um Werbung anzubieten. Was planen Sie hier?
+Die Freenet Gruppe verfügt über diverse Kundenbestände im Bereich Email, Mobilfunk und Festnetz, sowie über 600 eigene Läden unter der Marke mobilcom‐debitel und Gravis ‐ natürlich wollen wir unsere neuen TV Produkte dort anbieten und wir werden deutlich machen, dass beide Konzepte eng mit dem Smartphone verbunden sind. Hier kommen intelligente Produkte mit einer erfolgreichen Vertriebsplattform zusammen und befruchten sich gegenseitig.
+Welche Werbeeinnahmen erwarten Sie hier langfristig?
+Voraussetzung für regionale, getargete oder doublescreen synchronisierte Werbung ist Reichweite. Diese müssen wir uns erst aufbauen, aber wir werden unter der kompetenten Leitung von Mathias Ehrlich bereits sehr früh intelligente neue Werbeformen testen, messbar machen und mit Kunden zusammen ausprobieren. Wir wollen ganz früh die Möglichkeiten zeigen und das Potenzial sichtbar machen.
+Hat Freenet Pläne, die Vermarktung der Werbeinhalte selber in die Hand zu nehmen?
+Nein, das werden wir denen überlassen, die das am besten können. Den Sendern und den Online Vermarktern.
+Viele Haushalte verfügen über keinen Kabelanschluss. Wie empfangen Sie die Inhalte ab dem Übergabepunkt in ihrem Haus?
+Die Exaring AG übergibt das Signal an alle relevanten DSL‐Provider, einzige Bedingung
+ist für den Endkunden eine Leitung mit mehr als 16 Mbit. Wer kein Kabel hat, hat
+üblicherweise einen Anschluss bei einem Festnetzanbieter.
+Sie sind bei der Exaring AG Minderheitsgesellschafter. Investieren Sie hier trotzdem in den weiteren Ausbau des Glaserfasernetzes und an welche Summen denken Sie hierbei?
+Die Investitionen ins Netz selbst trägt der Eigentümer des Netzes, der auch Anteilseigner an der Exaring ist. So gesehen haben wir hier einen Netzausbau „for Equity deal“ – und wir haben vereinbart, dass wir außer der Freenet keine Gesellschafter mit ihren Anteilen veröffentlichen werden – daher bitte ich um Verständnis, wenn ich etwas vage bleibe. Entscheidend ist, dass wir parallel 100 Millionen HD Streams ausliefern können. Das reicht leicht für die 60 Millionen
+Geräte in Deutschland.
+Streben Sie langfristig die Mehrheit an der Exaring AG an?
+Wir haben eine Reihe von vertraglichen Vereinbarungen getroffen, die alle möglichen Konstellationen und Entwicklungen regeln. Heute ist für mich wichtig, dass das Team vor Ort sich voll auf den Launch konzentriert und wir den besten und erfolgreichsten Vertrieb vorbereiten – das reicht mir im Moment als Agenda. Dann sehen wir weiter.
+Für den Erwerb der Media Broadcast mussten Sie tief in die Tasche greifen. Ist der Kaufpreis von 295 Millionen Euro nicht überzogen?
+Der Kaufpreis ist immer ein Produkt aus Vorstellungen des Verkäufers, einer umfassenden Due Dilligence in allen Dimensionen von IT, Netz, Recht, Steuern, Commercial, einer Verhandlung und vor allem einer Einschätzung über den langfristigen Ertragswert des Unternehmens unter neuer Führung. Der Deal ist für unsere Aktionäre vom ersten Tag an wertschaffend und liefert Ebitda und Free Cash Flow bereits in 2016.
+Wie finanzieren den Deal?
+Wir haben unter anderem durch die kürzliche Begebung eines Schuldscheindarlehens über 560 Millionen Euro ausreichend Finanzmittel zur Verfügung. Außerdem haben wir unseren Dividendenvorschlag für 2015 und 2016 veröffentlicht, um aufzuzeigen, dass diese Investition in keiner Weise unser Commitment gegenüber den Aktionären in Form einer hohen Ausschüttung
+verändert.
+Sie haben die Umsatz- und Ertragsziele für 2016 angehoben. Wann fließen Ihnen aus der Übernahme der Media Broadcast erste Umsätze wirklich zu?
+Sobald die Transaktion von den Behörden genehmigt wurde und das Closing vollzogen ist. Ich rechne damit unter normalen Umständen im März – dann würden wir ab April konsolidieren.
+Die Media Broadcast ist auch Betreiber von Sendernetzen für Radiostationen. ist dieses Geschäft wirklich für Sie interessant oder wollen Sie dies weiterverkaufen?
+Das offensichtliche Potenzial liegt im TV und dort können wir auch die Stärken der Freenet Gruppe voll ausspielen. Im Radio liegen auch Potenziale, denken Sie an DAB und an die Frage, was Menschen tun, wenn das Auto von selbst fährt. Radio ist ein fester Teil von Media Broadcast und wir haben keinerlei Pläne, das zu verändern.

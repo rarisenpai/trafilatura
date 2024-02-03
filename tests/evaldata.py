@@ -3,7 +3,7 @@ EVAL_PAGES = {
 'https://die-partei.net/luebeck/2012/05/31/das-ministerium-fur-club-kultur-informiert/': {
     'file': 'die-partei.net.luebeck.html',
     'with': ['Die GEMA dreht völlig am Zeiger!', 'http://www.openpetition.de'],
-    'without': ['31. Mai', 'Impressum', 'Steuerdarling'],
+    'without': ['31. Mai', 'Impressum', 'Steuerdarling'], 
 },
 'https://www.bmjv.de/DE/Verbraucherportal/KonsumImAlltag/TransparenzPreisanpassung/TransparenzPreisanpassung_node.html': {
     'file': 'bmjv.de.konsum.html',

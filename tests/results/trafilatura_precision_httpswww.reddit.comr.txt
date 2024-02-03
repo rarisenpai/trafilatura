@@ -1,0 +1,67 @@
+I'm new to packaging and publishing on PyPI. I've been searching for information about the best practices about modules and namespaces, and using
+__init__.py to manipulate them. Yet I haven't been able to find a generally accepted approach.
+Considering a package with multiple modules (and possibly sub-packages), there seems to be 3 different approaches:
+Leave the
+__init__.py blank. This enforces explicit imports and thus clear namespaces. I've read Alex Martelli post in favor of this option on various questions at Stack Overflow. The cons are, the user of the package has to import seperate modules and call them with the dot notation.
+Import all modules in
+__init__.py. The user doesn't have to do multiple imports. The cons are explicit vs implicit, and also as Martelli puts it (paraphrased), "if that's how your package works, maybe it should all go in a single module anyway".
+Import key functions from various modules directly into the package namespace. If you restructure modules, you still have the option to keep the same API for end users. Cons, it dirties the namespace, and very implicit / hacky.
+I've been looking around at Github, and I've seen all 3 approaches in various projects. So I'm guessing there isn't really a consensus on what is the best practice.
+I'm really interested in hearing from the pros, how they think about this, what they do, what they suggest... Or maybe there are subtleties that I'm missing... Any help is appreciated.
+Thanks in advance
+EDIT: Thanks a lot for all the great posts! They provide a lot to think about.
+A couple of people asked about links, so here are a few I found to be useful:
+(If you have links to other good guides to packaging, they'd be appreciated!)
+And the Stack Overflow posts I mentioned:
+I tend toward option 3 for my own work. For me, it's about declaring a 'public' API for the module, e.g.
+stuff/ __init__.py bigstuff.py privateStuff.py
+And __init__.py would have:
+from bigstuff import Stuffinator, Stuffinatrix
+This essentially says that stuff.Stuffinator and stuff.Stuffinatrix are the only parts of the module intended for public use. While there's nothing stopping people from doing an 'import stuff.bigstuff.Stuffometer' or 'import stuff.privateStuff.HiddenStuff', they'll at least know they're peeking behind the curtain at that point. Rather than being implicit, I find it's rather explicit.
+also, flat is better than nested, really.
+having to import stuff from various places to make basic uses of the api work is very much against python’s philosophy.
+as for the .api subpackage: why not just use
+__init__.py? it’s less stuff to type and remember and feels like a pretty natural place for the “public API”.
+I think this is a very bad idea as it will create a coupling between all modules. For example if you want to write a unittest that imports stuff/bigstuff.py, it will break if something is wrong in stuff/otherfile.py as otherfile.py is imported in
+__init__.py.
+It is also very annoying when you want to use some parts of an API without importing everything.
+Sometimes one of the module is slow to load, and now you are forced to load it because it is in the
+__init__.py .
+I highly recommend option 1. You always will get trouble with 2 or 3.
+I do similar things. I think it's a nicer user experience. I normally will define all in the module i want to bring into init and then import * don't need to worry about the coupling then
+I've been trying to get my head around versions and dependencies in Python lately, and it seems complicated. Is the version being in
+__init__.py useful outside of a user reading it? Do any of the various packaging systems for Python use it?
+Option 3 is definitely how this should work, here's why. You start out with your library having a package "foo" and a module "bar". Users make use of things inside of "bar" like,
+from foo.bar import x, y, z. Then one day, "bar" starts getting really big, the implementations for things become more complex and broken out, features are added. The way you deal with this is by making
+bar.py into a package, and the
+__init__.py inside of
+bar/ essentially replaces
+bar.py. Your users see no change in API, and there's no need for them to learn exactly which submodule inside the new
+bar package they need to use (nor should there be, as things can keep changing many more times - it wouldn't be correct to expose the userbase to each of those changes when it's entirely unnecessary).
+There's nothing hacky about this at all, it's how
+__init__.py is meant to be used, and to those saying "explicit is better than implicit" I'd counter with "practicality beats purity" and "flat is better than nested", not to mention a foolish consistency is the hobgoblin of little minds.
+"There's nothing hacky about this at all"
+Damn right! You are writing an API to your package. Write a good API for your users and don't couple that with your internal implementation. "explicit is better than implicit" does not mean "write leaky abstractions".
+I like importing key functions and classes. Flat is better than nested, so as a user of a library, I prefer
+from library import ThingIWant or
+import library and then using
+library.ThingIWant rather than
+from library.things.thing_i_want import ThingIWant.
+More specifically, I would often have the contents of
+__init__.py be:
+"""Docstring explaining package""" from thispackage.module_or_subpackage import * from thispackage.module_thats_next_alphabetically import * ...
+And then have each module use
+__all__ to specify which names constitute its public API that should be exposed by the package.
+For something you are distributing publicly, I don't think your
+__init__.py should ever by "blank" as specified by option 1: you should at least include a docstring explaining what the package does. This will help users poking around in ipython, etc.
+I recommend option 1 for most cases. We usually include an
+api.py module that puts in the convenience imports that one would otherwise put into the
+__init__.py. Many users of the
+foo.bar package will do
+from foo.bar.api import FooBar. Others that want more control will do
+from foo.bar.foo_bar import FooBar.
+Exposing the internal package structure is unnecessary and it is impossible to refactor it without breaking dependent client code. However this isn't much of an issue for functions/classes which are used package internal anyway. One Python feature I almost entirely refuse is relative imports ( both implicit and explicit - everything is imported from the root package, as in Java ) but this is another topic.
+About Alex Martelli's objection. I wonder what he thinks about the way Wikipedia or Sphinx handles namespaces where the engine is responsible for the wiring and the user for providing unique names. I even remember a discussion on Lambda The Ultimate where Sean McDirmid suggested to kill modules and imports entirely in favor for wikiword style linking.
+Hi! Where can I read a good writeup about the file structure of Python projects? This init.py confuses me a lot. I don't when or how I should make it. I just learned the basics of the language, but Ive been coding for a long time. I'm now doing some reading on functional programming (right now Im on decorators)
+Members
+Online

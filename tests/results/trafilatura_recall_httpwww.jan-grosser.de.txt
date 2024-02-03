@@ -1,0 +1,53 @@
+XUM1541: Dateien zwischen Linux und C64 austauschen
+31.01.2016 Hardware
+Es gibt verschiedene Möglichkeiten, Dateien zwischen einem über 30 Jahre alten Commodore 64 (C64) und einem modernen Linux-Computer auszutauschen. Ich möchte in diesem Artikel eine besonders einfache und preisgünstige Variante vorstellen, die ich selbst zuhause realisiert habe. Sie besteht darin, mittels eines preisgünstigen Mikrocontroller-Boards einen Adapter zu bauen, um ein Commodre 5.25" Disketten-Laufwerk über USB an einen modernen Linux-Computer anzuschließen. Solche USB-basierten Adapter sind unter der Bezeichnung XUM1541 bekannt.
+Ein paar Vorbemerkungen
+Die Disketten-Laufwerke von Commodore, wie das legendäre VC-1541, besitzen eine serielle Schnittstelle (IEC) über welche die Kommunikation mit dem Commodore Computer erfolgt. Als Stecker wird üblicherweise eine 6-polige DIN-Buchse verwendet. Diese serielle Schnittstelle ist allerdings nicht kompatibel mit der seriellen RS232-Schnittstelle, wie sie im PC-Bereich verbreitet war. Über ein kleines, preisgünstiges Mikrocontroller-Board wird nun eine Kommunikation zwischen Computer via USB und dem VC-1541 via IEC hergestellt.
+Beim Mikrocontroller-Board habe ich mich für ein Teensy der Firma PJRC entschieden, den man im Internet für etwa 20 Euro bekommt. Auf dem Teensy werkelt ein Atmel Mega32U4 mit einer Hardware-USB-Schnittstelle. An den Ports des Mikrocontrollers werden nun die Signale vom IEC angelegt, so daß eine Kommunikation mit dem Commodore Disketten-Laufwerk möglich ist. Auf dem Teensy wird dann noch eine Software eingespielt, die unter der Bezeichnung XUM1541 bekannt ist.
+Auch auf dem Linux-Rechner müssen wir tätig werden und eine Tool-Sammlung installieren: OpenCBM. Diese Tool-Sammlung stellt Befehle bereit, über die das Disketten-Laufwerk angesprochen, Dateien in beide Richtungen kopiert oder Disketten formatiert werden können.
+Die Hardware für den XUM1541
+Die benötigte Hardware für den XUM1541 ist sehr überschaubar:
+- 1x Teensy2.0 mit ATMEGA32U4-Controller
+- 1x 6-poligen DIN-Stecker (DIN 45322). Von denen habe ich eine Hand voll bei eBay gekauft.
+- 1x mindestend 6-adrige Leitung. Ich habe ein Cat5-Kabel genommen.
+- 1x Taster zum Resetten des Teensy
+- 1x Low Current LED (2 mA) inklusive Vorwiderstand (1500 Ohm passen z.B. für eine grüne LED)
+- 1x Gehäuse (z.B. Pollin 460 208)
+Die Anschlußbelegung am DIN-Stecker, welcher in das Disketten-Laufwerk kommt, kann man auf dieser Webseite sehen. Wie die Signale der IEC-Schnittstelle an die Pins des Teensy anzulegen sind, hängt nun stark davon ab, wo man sich die Firmware für den Teensy herholt. Ich habe mir das git-Repository https://github.com/thomask77/teensy-xum1541 gezogen. In diesem Repo ist sowohl die Firmware für den Teensy als auch der Quellcode für OpenCBM vorhanden. Die Belegung am Teensy findet man in dieser Datei. Demnach müssen die Signale an den mit "F" bezeichneten Port (das hatte ich zunächst falsch gemacht, und den Port D verwendet).
+Bei mir steckt der Mikrocontroller in einem kleinen Gehäuse. Deshalb habe ich ich das Gehäuse noch zwei Löcher gemacht. Durch eines schaut eine Low Current LED, welche an Pin D6 angeschlossen ist. So erhält man ein optisches Feedback über die Aktivität des Teensy. Im zweiten Loch steckt ein Taster zum Resetten des Teensy (zieht den Reset-Pin beim Drücken gegen Masse). Diesen benötigt man nur für den Fall, daß der Teensy neu programmiert werden soll. Die Verdrahtung ist nicht besonders kompliziert, wie folgendes Schematic zeigt:
+Das Innenleben des Gehäuses sieht bei mir so aus:
+Programmieren des Teensy
+Das Programmieren des Teensy unter Linux ist nicht besonders aufwändig. Ich bin nicht gerade ein Freund dieser "Klicki-Bunti-Programme" und habe ich mich daher für ein schlankes Konsolen-Programm entschieden: teensy_loader_cli. Die einzige signifikante Abhängigkeit ist, daß man libusb-dev installiert haben sollte. Dann ist das Bauen des Programms kein Problem mehr:
+$ sudo mkdir chmod -R 777 /usr/src/teensy_loader_cli
+$ cd /usr/src $ git clone https://github.com/PaulStoffregen/teensy_loader_cli.git
+$ cd teensy_loader_cli
+$ make
+$ sudo make install
+Damit man den Teensy auch als nicht-root-User programmieren kann, kopiert man sich von der Hersteller-Seite die passende udev-Regeldatei herunter und kopiert diese in das Verzeichnis /etc/udev/rules.d/. Mit einem
+werden die neuen Regeln aktiviert.
+Im Auslieferzustand befindet sich auf dem Teensy eine Blink-Demo. Die LED auf dem Board wechselt jede Sekunde von an auf aus und umgekehrt. Um den Teensy programmieren zu können, muß man den Reset-Pin auf Masse ziehen (entweder den oben angelöteten Taster verwenden oder den kleinen DIP-Schalter auf dem Board). Nun wird der Teensy als USB-Gerät erkannt:
+...
+Bus 001 Device 006: ID 16c0:0478 Van Ooijen Technische Informatica Teensy Halfkay Bootloader
+...
+Nun können wir die XUM-1541 Firmware herunterladen, uns noch einmal versichern, daß wir die passende Pin-Belegung am Teensy verwenden und dann die Firmware auf den Teensy schieben:
+Damit sind wir mit dem Adapter fertig!
+Installieren von OpenCBM
+Die letzte Etappe ist, die Tool-Sammlung OpenCBM zu installieren, die uns unter Linux die Befehle zur Verfügung stellt, mittels des XUM1541-Adapters nun endlich Dateien zwischen Linux-Computer und dem Commodore Laufwerk hin- und herzukopieren.
+$ sudo chmod -R 777 /usr/src/teensy-xum1541
+$ cd /usr/src
+$ git clone https://github.com/thomask77/teensy-xum1541.git
+$ cd teensy-xum1541/opencbm
+$ make -f LINUX/Makefile
+$ sudo make -f LINUX/Makefile install install-plugin-xum1541
+Bei mir gab es noch Probleme, die Programme unter /usr/bin/ auszuführen, da die OpenCBM-Bibliotheken nicht gefunden werden konnten. Wenn das Euch auch passiert, könnt Ihr unter modernen Linux-Systemen ldconfig verwenden, um die Bibliotheken zu konfigurieren. Wie das funktioniert, ist leider von Linux zu Linux verschieden ... einfach mal die Suchmaschine Eures Vertrauens konsultieren.
+Wenn der Teensy nun mit der XUM1541-Firmware läuft, meldet er sich beim System über USB mit einer anderen ID als wenn wir die Reset-Taste gedrückt hatten und der Halfkay-Bootloader aktiv ist zum Programmieren (siehe oben). Ergo, benötigen wir für den XUM1541 eine separate udev-Regeldatei, damit auch nicht-root-User in den Genuß kommen können, den XUM1541 zu verwenden. Gott-sei-Dank findet sich im git-Repo eine passende Datei, die wir ins System kopieren:
+Ggf. ist in dieser Datei noch Hand anzulegen, da zunächst nur Benutzer in der Gruppe "cdrom" Zugriff auf den XUM1541-Adapter haben. Entweder man ändert die Gruppe (bei mir "usb") oder erweitert z.B. die Rechte auf "MODE=0666". Anschließend machen wir die neuen udev-Regeln aktiv mit dem udevadm-Befehl von oben.
+Installation testen
+Jetzt haben wir alles beisammen und können einen ersten Test unternehmen. Falls Ihr das Commodore Disketten-Laufwerk am XUM1541-Adapter betreibt, trennt es ggf. vorher vom C64.
+$ cbmctrl detect
+8: 1541C
+# Inhalt der Diskette anzeigen:
+$ cbmctrl dir 8
+...
+Ein D64 Disketten-Image kann man wie folgt auf eine Diskette im Laufwerk kopieren (alle Daten auf der Diskette werden hierbei überschrieben!):
+Das Kopieren von etwas mehr als 200 Blöcken dauert bei mir knapp eine Minute.

@@ -1,0 +1,24 @@
+
+Wer ein iPhone besitzt, dessen Daten sind auf dem Gerät selber bestens geschützt. Schon lange vor anderen Betriebssystemen hat Apple bei iOS eine robuste Verschlüsselung eingeführt, die ohne weiteres Zutun der Nutzer*innen funktioniert. Nach eigenen Angaben kann selbst Apple kann ein gesperrtes iPhone nicht einfach wieder entsperren – einen Generalschlüssel gibt es also nicht.
+Was für Nutzer*innen ein Plus an Sicherheit bedeutet, ist für Strafverfolgungsbehörden wie das FBI ein Ärgernis, denn auch sie stehen bei gesperrten iPhones vor größeren Problemen.
+US-Behörden erhielten Zugang zu tausenden iCloud-Konten
+Anders sieht es bei den Daten aus, die iPhone-Nutzer*innen in der iCloud sichern. Dort liegen diese zwar auch verschlüsselt vor – Apple kann sie aber bei Bedarf entschlüsseln. Strafverfolgungsbehörden können Apple mit entsprechendem richterlichen Beschluss zwingen, diese Daten herauszugeben.
+Allein in der ersten Jahreshälfte 2019 stellten US-Behörden 1.568 Anfragen, bei denen Apple Daten herausgab. Diese bezogen sich 6.353 iCloud-Konten.
+Pläne zur Ende-zu-Ende-Verschlüsselung nach Gesprächen mit FBI eingestellt
+Wie die Nachrichtenagentur Reuters diesen Montag berichtete, hatte Apple geplant, auch dieses Schlupfloch zu schließen. Alle Daten in der iCloud sollten demnach so verschlüsselt werden, dass sie nur mit dem Passcode des*der Nutzer*in zu entschlüsseln wären.
+Wie sechs unterschiedliche Quellen aus dem Umfeld von Apple der Nachrichtenagentur berichteten, soll es bereits ein etwa zehnköpfiges Entwickler*innenteam gegeben haben, das an dem Projekt mit den Codenamen Plesio und Keydrop arbeitete. Der Konzern habe das Projekt vor zwei Jahren mit Vertreter*innen des FBI diskutiert und es anschließend gestoppt.
+Weder das FBI noch Apple wollten dazu offiziell Stellung beziehen. Apple war bereits mehrmals medienwirksam in die Kritik geraten, weil es mit seiner starken Verschlüsselung angeblich Verbrecher*innen schütze - zuletzt im Rahmen der Ermittlungen zu dem Anschlag auf einen US-Marinestützpunkt in Pensacola im US-Bundesstaat Florida.
+Android-Backup seit Version 9.0 verschlüsselt
+Was dabei erstaunlich wenig Beachtung findet: Apples Konkurrent Google hat die Ende-zu-Ende Verschlüsselung für sein Android-Backup längst eingeführt. So entzog das Unternehmen Daten von weitaus mehr Handy-Nutzer*innen dem Zugriff von Behörden, als Apple es könnte.
+An dieser Stelle können wir dem Konzern aus Mountain View zu seiner Entscheidung nur gratulieren (was selten vorkommt) - und sein Geschick bewundern, bei Bedarf unter dem Radar der Öffentlichkeit zu fliegen.
+Was ebenfalls gerne übersehen wird: Auch in Apples iCloud sind einige Daten schon seit längerem Ende-zu-Ende-verschlüsselt, so dass auch Apple selbst sie nicht lesen kann. Dazu gehören nach eigenen Angaben:
+
+Hausdaten
+Gesundheitsdaten (erfordert iOS 12 oder neuer)
+iCloud-Schlüsselbund
+Zahlungsdaten
+Von der QuickType-Tastatur gelernte Wörter (erfordert iOS 11 oder neuer)
+Bildschirmzeit
+Siri-Daten
+WLAN-Passwörter
+

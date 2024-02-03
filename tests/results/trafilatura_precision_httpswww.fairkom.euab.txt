@@ -1,0 +1,92 @@
+Wir sind fairkom
+Ein Kompetenzverbund zur Förderung des Open Source Gedanken
+Die fairkom Gesellschaft ist ein gemeinwohlorientiertes Partnerschaftsnetzwerk von selbstständigen IT Consultants bei Open Source Projekten.
+Als "Genossenschaft light“ arbeiten wir in den folgenden vier Feldern:
+1. Cloud Services
+2. Software Entwicklung
+3. Social Design
+4. Commons
+Wir setzen Aktivitäten zur verstärkten Nutzung von Onlinediensten für die faire Nutzung gemeinsamer Ressourcen. Der Zweck ist die konzeptuelle und praktische Bereitstellung von Kommunikationsmedien, mit dem Ziel, neue Einsatzmöglichkeiten für Online Medien speziell unter Nutzung Freier Software aufzuzeigen.
+Eine Allianz erfahrener Open Source Expert*innen
+Beratung - Planung - Implementierung - Betrieb - Support
+Was können wir für Sie tun?
+Über die osAlliance Partnervereinbarung ist die fairkom Gesellschaft gerne die Generalunternehmerin in osAlliance Kundenprojekten.
+Unsere Geschichte
+Von PUBLIC VOICE mit osAlliance zur ALLMENDA nach fairkom
+Vom Grätzltelefon zu Cloud Lösungen
+Netzkultur und Freie Software seit 1995
+Das PUBLIC VOICE Labor wurde 1995 gegründet und startete mit Telefondiensten für lokale Bürgerbeteiligung in Wien. Mit dem Internetboom setzten wir zahlreiche Medien- und Forschungsprojekte um und gaben in der PUBLIC VOICE Telekommunikations GmbH und später in einem eigenen Verlag Bücher dazu heraus.
+2003 schlossen sich viele Mitarbeiter*innen und Partner*innen zu einer Genossenschaft zusammen, die ursprünglich von Freien Radios gegründet worden war. Der Fokus im "Internationalen Medienverbund reg.Gen.m.b.H." lag in der Realisierung von Informatik- und Kommunikationslösungen basierend auf Open Source Komponenten. 2012 brachten wir die Genossenschaft mit mehr als 50 Mitgliedern, mit der wir seit September 2006 mit der Marke osAlliance auf dem Markt auftraten, in die Talent Dienstleistungs- und Handel e.G. ein und gaben uns die neue Marke ALLMENDA. Das sehr breite Themenspektrum (von Regionalwährungen, über Crowdfunding, Gemeinschaftsgarten und IT) veranlasste uns im Sommer 2015 zu einer Zellteilung, sodass wir die Geschäftsfelder Cloud und Informatik wieder in den PUBLIC VOICE Lab Verein zurückgeholt haben.
+2016 wird der Verein zur "fairkom Gesellschaft" worüber alle unsere Projekte und Services abgewickelt werden. Die fairkom Gesellschaft betreut nun Labels wie osAlliance, Creativdepot oder RegisteredCommons und bietet ihren Mitgliedern und Partnern an, damit Projekte zu realisieren. Seit 2012 sind wir offiziell Creative Commons Affiliate in Österreich, ein logischer Schritt, denn unsere Mitglieder kümmern sich darum schon seit der Einführung von CC in Österreich im Jahre 2004.
+Wir betreuen virtualisierte IT Infrastrukturen auf Open Source Basis und spezialisieren uns dabei auf Organisationen und Unternehmen im öffentlichen Sektor und auf jene, die nachhaltig agieren.
+Grün & Fair
+Unsere Anwendungen laufen auf energieeffizienten und CO2-neutralen Servern, die mit Ökostrom betrieben werden. Überschüsse investieren wir in Eigenentwicklungen oder unterstützen damit soziale und nachhaltige Projekte.
+Datensicherheit
+Privatsphäre ist uns wichtig. Wir setzten auf einen umfassenden Datenschutz und verkaufen keine Daten weiter. Ein breites Team an Techniker*innen betreuen unsere Systeme zur Verschlüsselung. Damit deine Daten dir gehören.
+Open Source
+Wir leben den Open Source Gedanken offline und stellen den Code online frei zur Verfügung. Bei uns gibt es keine versteckten Hintertüren. Innerhalb verschiedenster Netzwerke arbeitet die fairkom zusammen mit vielen Anderen an der Weiterentwicklung fairer Software.
+Roland Alton
+Kommunikationsarchitekt
+Christian König
+IT Consulting
+David Ayers
+Sysadmin
+Alexandra Klepatsch
+Drupalspezialistin
+Armin Felder
+Programmierer
+Ralf Schlatterbeck
+Open Source Experte
+Thomas König
+Blockchainprofi
+Sebastian Kuehs
+Kommunikation
+Christian Fischer
+Screendesigner
+Dieter Koschek
+Netzwerker
+Katze Kira
+Chillerin
+Johannes Büchele
+Programmierer
+Chris Widerström
+Open Source Experte
+Joana Maria Giesinger
+ERPnext Expertin
+Wir freuen uns über Spenden damit wir unseren nachhaltigen Weg ausbauen können.
+Viele unserer Anwendungen stellen wir kostenlos zur Verfügung.
+Unsere Überschüsse fließen ausnahmslos in die Weiterentwicklung von Open Source Projekten
+oder in die Begleitung von sozialen und nachhaltigen Initiativen.
+Gerne kannst du unsere Vision unterstützen.
+Die Gesellschaft
+fairkom agiert mit überarbeiteter Strategie seit 2016 in vier Feldern
+Open Source Cloud Services
+Open Source Software Entwicklung
+Social Design
+Commons
+Die Felder 1 +2 sind als Gewerbebetrieb organisiert, mit einem Fokus auf nachhaltig agierende Organisationen, Unternehmen und dem öffentlichen Sektor. Im Feld 2 leisten Mitglieder und Partner, die die Marke osAlliance nutzen, einen Markenpflegebeitrag. Im Feld 3 fokussieren wir uns auf Design für Nachhaltigkeit mit Open Source Methoden und im Feld 4 betreiben wir RegisteredCommons und koordinieren Creative Commons in Österreich.
+In den Statuten sind Zweck und Mittel festgelegt
+Wir setzen Aktivitäten zur verstärkten Nutzung von Onlinediensten für die faire Nutzung gemeinsamer Ressourcen.
+Der Zweck ist die konzeptuelle und praktische Bereitstellung von Kommunikationsmedien, mit dem Ziel, neue Einsatzmöglichkeiten für Online Medien speziell unter Nutzung Freier Software aufzuzeigen.
+Dies wollen wir erreichen durch:
+- Vorträge, Versammlungen, Seminare, Symposien, Übungs- und Trainingsveranstaltungen
+- Betreiben von Kommunikationsplattformen im Internet
+- Bereitstellung einer Plattform zur Registrierung von offen lizenzierten Werken
+- Kontaktaufnahme mit Organisationen, Einrichtungen und Fachleuten des In- und Auslandes
+- Anregung zum interaktiven Medienverhalten verschiedenster Bevölkerungsgruppen und Einzelpersonen und Unterstützung dieser durch zur Verfügungstellung medialer Einrichtungen des Vereins
+- Entwicklung von Konzepten und Strategien, die die Nutzung Freier Software begünstigen
+- Zusammenarbeit mit Wissenschaftern und Teilnahme an Forschungsprojekten
+- Vertretung der vereinsspezifischen Interessen der Mitglieder gegenüber Behörden und Institutionen
+Einnahmen und Mittelverwendung:
+- Mitgliedsbeiträge, freiwillige Spenden, organisierte Sammlungen, Schenkungen, Subventionen, Zuschüsse, Projektförderungen, Vermächtnisse, Sponsoren und sonstige Zuwendungen
+- Erträge aus Veranstaltungen des Vereins, Erträge aus Dienstleistungen des Vereins, Erlöse aus der Weitergabe von Informationen, Erlöse aus der Bereitstellung vereinseigener Einrichtungen
+- Erträge aus wirtschaftlichen Tätigkeiten dienen zur Abdeckung der Kosten
+- Gewinne werden zur Erreichung des gemeinnützigen Vereinszwecks verwendet
+Aktuellere Aktivitäten gibt es hier auf unserer Webseite und in unserem Blog nachzulesen.
+Dein Herz schlägt für freie Software und du möchtest mit anpacken? Dazu gibt es viele Möglichkeiten:
+- übernimm ein issue, wenn du technische Herausforderungen zum Beispiel beim Hosting lösen kannst
+- hilf mit, unsere Dokumentation oder Tutorials auf unseren Webseiten zu verbessern oder zu übersetzen
+- empfehle fairkom weiter
+- biete vor Ort Support an
+- akquiriere Kundenprojekte und arbeite mit bei den Lösungen
+Wenn wir ein Stück gemeinsamen Weges gegangen sind, kannst du auch um eine Mitgliedschaft ansuchen. Damit erhälst du eine Stimmberechtigung bei der Generalversammlung.

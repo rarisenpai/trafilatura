@@ -1,0 +1,67 @@
+baseline
+{'true positives': 1886, 'false positives': 610, 'true negatives': 1640, 'false negatives': 350, 'time': 3.9587748050689697}
+precision: 0.756 recall: 0.843 accuracy: 0.786 f-score: 0.797
+nero
+{'true positives': 1605, 'false positives': 548, 'true negatives': 1702, 'false negatives': 631, 'time': 5174.635760307312}
+precision: 0.745 recall: 0.718 accuracy: 0.737 f-score: 0.731
+time diff.: 1307.13
+html2text
+{'true positives': 1586, 'false positives': 1677, 'true negatives': 573, 'false negatives': 650, 'time': 52.74151563644409}
+precision: 0.486 recall: 0.709 accuracy: 0.481 f-score: 0.577
+time diff.: 13.32
+html_text
+{'true positives': 2142, 'false positives': 1906, 'true negatives': 344, 'false negatives': 94, 'time': 7.645714044570923}
+precision: 0.529 recall: 0.958 accuracy: 0.554 f-score: 0.682
+time diff.: 1.93
+inscriptis
+{'true positives': 2146, 'false positives': 1880, 'true negatives': 370, 'false negatives': 90, 'time': 14.682101726531982}
+precision: 0.533 recall: 0.960 accuracy: 0.561 f-score: 0.685
+time diff.: 3.71
+justext
+{'true positives': 1453, 'false positives': 227, 'true negatives': 2023, 'false negatives': 783, 'time': 23.462204694747925}
+precision: 0.865 recall: 0.650 accuracy: 0.775 f-score: 0.742
+time diff.: 5.93
+goose
+{'true positives': 1527, 'false positives': 108, 'true negatives': 2142, 'false negatives': 709, 'time': 96.48171806335449}
+precision: 0.934 recall: 0.683 accuracy: 0.818 f-score: 0.789
+time diff.: 24.37
+newspaper
+{'true positives': 1325, 'false positives': 156, 'true negatives': 2094, 'false negatives': 911, 'time': 50.92879891395569}
+precision: 0.895 recall: 0.593 accuracy: 0.762 f-score: 0.713
+time diff.: 12.86
+boilerpipe
+{'true positives': 1663, 'false positives': 381, 'true negatives': 1869, 'false negatives': 573, 'time': 16.518891096115112}
+precision: 0.814 recall: 0.744 accuracy: 0.787 f-score: 0.777
+time diff.: 4.17
+newsplease
+{'true positives': 1643, 'false positives': 186, 'true negatives': 2064, 'false negatives': 593, 'time': 653.3731408119202}
+precision: 0.898 recall: 0.735 accuracy: 0.826 f-score: 0.808
+time diff.: 165.04
+readability
+{'true positives': 1629, 'false positives': 200, 'true negatives': 2050, 'false negatives': 607, 'time': 25.741174936294556}
+precision: 0.891 recall: 0.729 accuracy: 0.820 f-score: 0.801
+time diff.: 6.50
+readabilipy
+{'true positives': 1951, 'false positives': 278, 'true negatives': 1972, 'false negatives': 285, 'time': 643.6029341220856}
+precision: 0.875 recall: 0.873 accuracy: 0.874 f-score: 0.874
+time diff.: 162.58
+bs4
+{'true positives': 2045, 'false positives': 1784, 'true negatives': 466, 'false negatives': 191, 'time': 24.44547152519226}
+precision: 0.534 recall: 0.915 accuracy: 0.560 f-score: 0.674
+time diff.: 6.18
+trafilatura
+{'true positives': 1992, 'false positives': 191, 'true negatives': 2059, 'false negatives': 244, 'time': 18.54759430885315}
+precision: 0.913 recall: 0.891 accuracy: 0.903 f-score: 0.902
+time diff.: 4.69
+trafilatura + X
+{'true positives': 2027, 'false positives': 191, 'true negatives': 2059, 'false negatives': 209, 'time': 27.169406175613403}
+precision: 0.914 recall: 0.907 accuracy: 0.911 f-score: 0.910
+time diff.: 6.86
+trafilatura precision
+{'true positives': 1968, 'false positives': 159, 'true negatives': 2091, 'false negatives': 268, 'time': 37.69258236885071}
+time diff.: 9.52
+precision: 0.925 recall: 0.880 accuracy: 0.905 f-score: 0.902
+trafilatura recall
+{'true positives': 2037, 'false positives': 231, 'true negatives': 2019, 'false negatives': 199, 'time': 20.238924264907837}
+time diff.: 5.11
+precision: 0.898 recall: 0.911 accuracy: 0.904 f-score: 0.905

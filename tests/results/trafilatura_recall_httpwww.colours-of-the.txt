@@ -1,0 +1,78 @@
+Strict Standards: Non-static method nggGallery::get_option() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 813
+Strict Standards: Non-static method nggGallery::get_option() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 716
+Strict Standards: Non-static method nggTags::find_images_for_tags() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 719
+Strict Standards: Non-static method nggdb::find_images_in_list() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/lib/tags.php on line 320
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Only variables should be passed by reference in /www/htdocs/w00a2ebd/wp-includes/wp-db.php on line 785
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 736
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::i18n() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 737
+Strict Standards: Non-static method nggGallery::get_option() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 594
+Strict Standards: Non-static method nggdb::find_image() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 597
+Strict Standards: Non-static method nggGallery::capture() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 661
+Strict Standards: Non-static method nggGallery::get_option() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 594
+Strict Standards: Non-static method nggdb::find_image() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 597
+Strict Standards: Non-static method nggGallery::capture() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/nggfunctions.php on line 661
+Bei dem nächsten trnd-Projekt, welches ich Euch noch gar nicht vorgestellt habe, ging es um die Software „G-Data InternetSecurity 2009“ von G-Data.
+Dabei hatte ich doch tatsächlich wieder das Glück angenommen zu werden, obwohl ich geschrieben hatte, dass ich gerne einmal aussetzen möchte, weil ich ein gutes Anti-Viren-Programm benutze.
+Nun gefreut habe ich mich natürlich trotzdem sehr, weil die Projekte von trnd.com wirklich Spaß machen und dieses versprach sehr interessant zu werden. Viele trnd-ler waren leider recht voreingenommen und schrieben schon im Vorfeld negativ über die Software, aber ich wollte mir nun ein eigenes Bild machen.
+Das trnd-Projekt startete am 20.11.08, ein paar Tage später traf das Paket bei mir zu Hause ein und der Inhalt setzte sich wie folgt zusammen:
+1 Projektfahrplan-Broschüre
+1 Heft mit Marktforschungsunterlagen zum Befragen von Freunden, Kollegen und Bekannten
+1 Vollversion der Software im Wert von 39,95 Euro
+10 CDs mit einer 180-Tage-Testversion von G-Data
+20 Informationsbroschüren
+Die Testversionen und die Broschüren hatte ich leider schon verteilt bevor ich das Foto oben geknipst habe, deshalb sind sie darauf nicht zu sehen.
+Die Software beinhaltet eine Fingerprint-Technologie: Das ist ein Modul, welches sich gescannte und unveränderte Dateien merkt. Dieses verhindert somit unnötige Rechenleistung und spart Zeit.
+Einen Paralel-Scan: Dieser nutzt die Dual- und QuadCore-Computer und verteilt die Rechenlast der Virensuche auf alle vorhandenen Prozessoren.
+Ein Performance-Profil: Bei der Installation von G Data wird ein individuelles Performance-Profil erstellt, das entsprechend der Rechner-Hardware einzelne Module auf Geschwindigkeit trimmt. Das soll auch bei langsamen PCs für optimale Security-Performance sorgen.
+Und ein neues User-Interface: Gelegensheits-User sollen von der einfachen Bedienung ebenso begeistert sein wie Security-Profis. In den Profieinstellungen stehen den Anwendern umfangreiche Einstellmöglichkeiten zur Verfügung.
+Strict Standards: Non-static method nggGallery::render() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/lib/core.php on line 341
+Installiert habe ich die Software auf meinen, zwar immer wieder erneuerten, aber doch 6 Jahre alten PC mit einem XP Betriebssystem. Den benutzt Günther zwar jetzt, da ich nur noch meine beiden Laptops in Gebrauch habe, aber ich wollte die Software zuerst auch unter einem nicht so neuen Betriebssystem und einer nicht so neuen Peripherie testen, da das doch mehr der Realität der Allgemeinheit entspricht. Zumindest bei uns im Bekannten- und Freundeskreis.
+Bis auf den Bootscan verlief die Installation reibungslos. Das alte Viren-Programm wurde von G-Data erkannt und vollständig deinstalliert. Viren wurden keine gefunden.
+Im täglichen Gebrauch verhielt sich die Software recht unkompliziert und kaum bemerkbar. Allerdings wirklich nur kaum, denn Günther beschwerte sich doch das eine oder andere Mal, dass es insgesamt etwas langsamer vorwärts ging als vorher. Egal ob beim Surfen im Internet oder beim Programmaufruf.
+Strict Standards: Non-static method nggGallery::render() should not be called statically in /www/htdocs/w00a2ebd/wp-content/plugins/nextgen-gallery/lib/core.php on line 341
+Daraufhin habe ich es auch auf meinem Laptop mit Vista-Betriebssystem ausprobiert und ich konnte keine Einschränkungen der Geschwindigkeit feststellen. Alles lief wie vorher. Die Einstellungen sind fast intuitiv zu nutzen und stellen keine großen Anforderungen an die Nutzer.
+Das Fazit aus meinem persönlichen Tests war also, dass man schon ein etwas neueres System haben sollte, um die Software auch ungetrübt von Performance-Einbußen nutzen zu können. Insgesamt hat man ein gutes, geschütztes Gefühl und ich würde die Anti-Viren-Software immer wieder gerne weiterempfehlen.
+Das Feedback der Leute, denen ich die 10 Testversionen gegeben hatte, war überwiegend positiv. Allerdings wurde auch hier immer wieder der Leistungsabfall bei älteren Systemen bemängelt.
+Das Projekt war am 20.01.09 zu Ende und ich danke G-Data und dem trnd-Team für die Erfahrung und den Spaß, den es mit sich gebracht hat.
+Wer interessiert ist, die Software auszuprobieren, der findet hier die kostenlosen Downloads von G-Data.

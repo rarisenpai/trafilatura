@@ -1,0 +1,427 @@
+
+
+Develop & test across multiple OSes in a virtual machine for Mac
+Access Microsoft Office for Windows and Internet Explorer
+Fast—run Windows apps without slowing down your Mac
+Quickly move files, apps and more from a PC to a Mac
+
+Already have an older version of Parallels Desktop? See What’s New
+Fast, Powerful and Easy
+Whether you need to run Windows programs that don’t have Mac versions, or you are making the switch from PC to Mac and need to transfer your data, Parallels Desktop has you covered.
+Seamless
+Use Windows side-by-side with macOS (no restarting required) on your MacBook®, MacBook Pro, iMac®, iMac Pro, Mac mini® or Mac Pro®. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
+Easy Set-Up
+Parallels Desktop automatically detects what you need to get started so you are up and going within minutes! If you need Windows, you’ll be prompted to Download and Install Windows 10 OR Choose your existing Windows, Linux, Ubuntu, or Boot Camp® installation.
+Lightning Fast
+Graphic and resource-hungry Windows applications run effortlessly without slowing down your Mac. Run the most demanding applications such as Adobe® Photoshop®, Visual Studio®, SketchUp® or AutoDesk Revit.
+Choose your View
+Make Windows invisible while still using its applications in Coherence Mode, or if you’re new to Mac, you can set Windows to occupy your entire screen, so it looks just like it would if you were using a Windows PC.
+See Parallels Desktop in Action
+See some of the most popular features in Parallels Desktop 15.
+Full Screen View
+ type="video/mp4"> type="video/ogg"> type="video/webm">
+Over 7 Million Users and Praised by Experts
+“Of all the ways to run Windows on a Mac, Parallels Desktop is my favorite because it just works. It's fast, it's reliable, and there's no need to futz about with confusing setting or convoluted setup processes.” Adrian Kingsley-Hughes, ZDNet
+“Unlike Apple’s Boot Camp, Parallels lets you run both operating systems at the same time.” Larry Magid, Forbes
+”Parallels Desktop is the easiest, fastest, and most tightly integrated app for running Windows apps or the Windows desktop in Apple OS X.” Edward Mendelson, PCMag.com
+“It’s always been astonishing that it’s faster to start up a Parallels PC than a real one. On my MacBook Air, I’m up and running in Windows six seconds after I double-click the Parallels icon.” David Pogue, Yahoo Tech
+“The latest version of Parallels, the popular Windows virtualization tool for Mac OS X, almost feels like its trolling Apple.” Engadget
+“The software has been iterating over a decade and now makes Windows feel like part of the macOS. You can also virtualize Linux, Android, and just about anything that runs on Intel chips including another instance of macOS—great for testing macOS Betas!” 9to5Mac
+Up to Date
+Optimized for the latest Windows 10 updates and macOS Catalina (10.15).
+Ultimate Flexibility
+Works with OS X, Windows 10, 8.1, and 7, Linux and Unix, and macOS Server. No more having to choose between PC or Mac.
+Touch Bar
+Add Windows applications to Touch Bar™ for instant access and customization.
+Connect Devices
+USB, USB-C, Thunderbolt and FireWire devices connect with Windows. Pair your Bluetooth® devices—including stylus pen and printer—to work with both Windows and macOS.
+Retina® Display Support
+Smart resizing and independent screen resolutions for separate displays.
+One-Click Tuning
+Select productivity, games, design, software testing, or development, and Parallels Desktop will optimize your VM settings and performance for you.
+Instant Access
+Launch and access Windows applications right from the Mac Dock.
+Save Disk Space
+Get the most out of your Mac with automatic Disk Space optimization.
+Office 365 Integration
+Allows Word, Excel, or PowerPoint documents in Safari to open in their native Windows Office app.
+Works with Boot Camp
+Reuse your existing Boot Camp installation. Converting a virtual machine from Boot Camp is easy, just follow our installation assistant at startup.
+Volume License Key
+Unified volume license key, centralized license management, and advanced security features are available in Parallels Desktop Business Edition.
+Travel Mode
+Extend battery life while away from a power source.
+Bonus!Parallels® Toolbox
+Over 30 one-touch tools—clean your drive, take screenshots, download a video, and more—all with just a single click.
+Bonus!Remote Access
+Remote access to your Mac from any iOS device, Android device, or browser with Parallels Access®.
+24/7 Support
+Premium 24/7 phone, email, and social support after activation.
+More Features 
+
+Share Mac applications with Windows
+Automatic resolution change
+Single cloud storage space between Mac and Windows
+Drag and drop files between Mac and Windows
+Copy and paste files or text between Mac and Windows
+Launch Windows applications right from the Dock
+Move your PC to Mac in a few easy steps
+Assign any USB devices to your Mac or Windows
+Retina display support for Windows
+Volume control synchronization
+Open any site in Microsoft Explorer right from Safari® browser
+Apply macOS Parental Control to Windows applications
+Windows alerts in Mac Notification Center
+Mac dictation inside Windows applications
+See the number of unread emails in the Dock
+“Reveal in Windows Explorer” in macOS files menu
+Virtual machine encryption
+Linked clones for VMs*
+Vagrant provider*
+32 vCPUs and 128 GB vRAM*
+Nested virtualization for Linux*
+Drag and drop files in macOS guests
+Real-time virtual disk optimization
+Create VM from VHD and VMDK disks*
+Drag and drop to create VM
+Disk Space Wizard optimizes your disk space
+Shared folders and printers for Linux VMs
+Windows applications in Launchpad
+Power Nap in Windows
+Use Force Touch to look up definitions
+New virtual machine wizard
+Mission Control support
+Presentation Wizard prevents most projector issues
+Drop files onto Outlook to create a new message
+Multi-language keyboard sync
+Picture-in-Picture view
+
+
+Share Bluetooth between Mac and Windows
+macOS guest support
+Spaces functionality for Windows applications
+Mission Control exposes your Windows applications
+DirectX support
+Thunderbolt support
+Licensing portal*
+Firewire support
+USB-C and USB 3.0 support
+Work without risk with Snapshots
+Safeguard your VM with encryption
+2 GB video memory support
+Finder tabs work with Windows applications
+AVX512 instruction set support
+Mojave support 
+Disk usage optimizations
+Report disk space left on Mac
+Express installation of Windows 10
+Native Mojave screenshots
+Auto allocation of video memory
+“Free Up Disk Space” wizard
+Free OS downloads
+Coherence for external displays
+Continuity camera support
+Touch Bar support
+Shared smart card reader
+Multi-monitor support
+4K shared camera support
+CPU usage indicator
+Mojave Quick Look support
+Pressure sensitivity support
+Resource usage monitor
+OpenGL support
+Offer to import Boot Camp
+Auto-detect games keyboard
+And many more…
+
+*Available with Parallels Desktop Pro Edition and Business Edition subscriptions
+Close
+
+
+
+
+
+
+
+
+
+
+
+
+ Are you a student? Save with Student Edition (Valid student verification required) 
+
+
+
+Compare Editions
+
+
+
+Features
+Standard Edition
+Pro Edition
+Business Edition
+
+
+Download and install Windows 10 in one click
+
+
+Optimized for macOS Catalina (10.15)
+
+
+Customize Touch Bar for Windows applications
+
+
+Virtual RAM for each VM
+8GB vRAM
+128GB vRAM
+128GB vRAM
+
+
+Virtual CPUs for each VM
+4 vCPUs
+32 vCPUs
+32 vCPUs
+
+
+Integration With Chef/Ohai/Docker/Vagrant
+
+
+Network conditioner to simulate speeds and test
+
+
+Visual Studio plug-In
+
+
+Debug, dump VM, or start an SSH session from menu
+
+
+Support for business cloud services
+
+
+Premium 24/7 phone and email support
+30-days
+
+
+Centralized administration and management
+
+
+Unified Volume License Key for mass deployment
+
+
+
+
+Buy NowUpgrade
+Buy NowUpgrade
+Buy Now
+
+
+
+
+
+
+Standard Edition
+
+
+Download and Install Windows 10 in one click
+
+
+Retina Support for Windows apps
+
+
+Ready for macOS Catalina (10.15)
+
+
+
+Buy NowUpgrade Now
+
+
+
+Pro Edition All the Standard Edition features PLUS:
+
+
+Integration With Chef/Ohai/Docker/Vagrant
+
+
+Network conditioner to simulate speeds and test
+
+
+Visual Studio plug-In 
+
+
+Debug, dump VM, or start an SSH session from menu
+
+
+Support for business cloud services
+
+
+Premium 24/7 phone and email support
+
+
+
+Buy NowUpgrade Now
+
+
+
+Business Edition All the Standard and Pro Edition features PLUS:
+
+
+Centralized administration and management
+
+
+Unified Volume License Key for mass deployment
+
+
+
+Buy Now
+#1 choice of Mac Users to Run Windows On Mac
+
+Súper HAPPY to be developing for #Hololens from my #Mac in a #virtualmachine for #parallelsdesktop I love it!!! pic.twitter.com/3FjG3V72Ad
+                                                                                                — Javier Campos (@x_campos) 16 мая 2018 г.
+
+Thanks to @ParallelsMac for making this unholy marriage so easy! It’s really simple as pie. #mac#windowspic.twitter.com/eDJu0qRTb8
+                                                                                                — Sebastin Rothe (@port_noy) 
+
+I released a first basic version of VSTouchbarTools for @VisualStudio on @ParallelsMac. Customization options are planned and contributions are welcome! https://t.co/F8by2FQAOapic.twitter.com/Rikoq31Xnq
+                                                                                                — rubito (@studiodelatorre) 7 января 2018 г.
+FAQs
+ How does Parallels Desktop work? 
+To add Windows, Linux, or another operating system to your Mac, Parallels Desktop creates a virtual machine (VM) or a virtual copy of your current Windows PC inside your Mac. You can then install Windows in the virtual machine, just as you would install any operating system on a regular computer. Run multiple OSes at the same time, all on your Mac. It’s like two computers in one!
+ What can I do with Parallels Desktop? 
+
+Open Windows applications side by side with your macOS applications, without having to restart your Mac
+Copy and paste text or drag and drop objects between Mac and Windows.
+Run Windows games and other 3D applications.
+Transfer all your data from a PC and use it on your Mac.
+Easily share files, devices, and other resources between Windows and Mac.
+Install other operating systems, such as trial versions of Windows, Linux, another copy of macOS, and free virtual appliances—and use them together.
+And much more…
+
+ How do I get Windows? 
+There are several ways to install Windows (or any other operating system) in a virtual machine, and Parallels Desktop makes it easy to get started within minutes.
+If you need Windows on your Mac, Parallels Desktop can help you download and install Windows 10. All you need to do is follow our Installation Assistant and click “Install Windows.”
+Or you can provide your own Microsoft Windows license key, purchase Windows directly from within Parallels Desktop, or transfer an existing Boot Camp partition with Windows already installed.
+
+ What if I’m already using Boot Camp? 
+With Parallels Desktop, you can switch between Mac and Windows without ever needing to reboot your computer.
+If you have already installed Windows 10, Windows 8.1, Windows 8, or Windows 7 on your Mac using Boot Camp, you can set Parallels Desktop to run Windows from the Boot Camp Partition or import Windows and your data from Boot Camp into Parallels Desktop as a new virtual machine.
+To use Windows from Boot Camp, install Parallels Desktop and follow the Installation Assistant.
+
+ How do I play Windows games on Mac? 
+Play your Windows-only game on a Mac using Parallels Desktop. Parallels Desktop even has a virtual machine setting dedicated to gaming to optimize performance. With ongoing support for DirectX and OpenGL, many popular games and game engines are supported within Parallels Desktop. Download a free 14-day trial of Parallels Desktop and see if your desired game is supported.
+ What are the system requirements for Parallels Desktop? 
+Hardware
+
+A Mac computer with an Intel Core 2 Duo, Core i3, Core i5, Core i7, Core i9, Intel Core M or Xeon processor
+Minimum 4 GB of memory, 16 GB is recommended
+500 MB for Parallels Desktop application installation
+Additional disk space for the guest operating system (at least 16 GB is required for Windows 10)
+SSD drive is recommended for better performance
+Internet connection for product activation and select features
+
+Software
+
+macOS Catalina 10.15
+macOS Mojave 10.14
+macOS High Sierra 10.13
+macOS Sierra 10.12
+DirectX 11 requires at least macOS Mojave 10.14 but works best on macOS 10.15 Catalina.
+
+Guest Operating Systems
+
+Windows 10
+Windows 8.1
+Windows 8
+Windows Server 2019
+Windows Server 2016
+Windows Server 2012 R2
+Windows 7 (SP0-SP1)
+Windows Server 2008 R2 (SP0-SP2)
+Windows Vista Home, Business, Ultimate and Enterprise (SP0-SP2)
+Windows Server 2003 R2 (SP0-SP2)
+Windows XP (SP0-SP3)
+Windows 2000 Professional SP4
+Windows 2000 Server SP4
+Boot2Docker
+Red Hat Enterprise Linux (RHEL) 7 and 6
+CentOS Linux 7 and 6
+Fedora Linux 30 * and 29
+Ubuntu 19.04, 18.04 LTS and 16.04 LTS
+Debian GNU/Linux 9 and 8
+Suse Linux Enterprise 15
+OpenSUSE Linux 15.1 and 15
+Linux Mint 19 and 18
+Kali 2019 and 2018
+Elementary 5
+Manjaro 18
+Mageia 7 and 6
+Gentoo Linux **
+Solaris 11 and 10 **
+openBSD 6 **
+FreeBSD 12 and 11 **
+openVZ 7
+eComStation 2 and 1.2 **
+ReactOS 0.4 **
+Android OS*
+ macOS Catalina 10.15 (when released)
+macOS Mojave 10.14.x
+macOS High Sierra 10.13.x
+macOS Sierra 10.12.x
+OS X El Capitan 10.11.x
+OS X Yosemite 10.10.x
+OS X Mavericks 10.9.x
+OS X Mountain Lion 10.8.x
+OS X Lion 10.7.x
+OS X Lion Server 10.7.x
+Mac OS X Snow Leopard Server 10.6.x
+Mac OS X Leopard Server 10.5.x
+and many more...
+* — Only the version downloaded with help of the Installation Assistant with Parallels Desktop. ** — Parallels Tools are not available for this operating system.
+
+Note: Parallels Desktop for Mac emulates PC hardware, so operating systems that are not present in this list can work as well. They are not on the list because we didn't test them in our lab yet or we found some critical issues. You can download the Parallels Desktop trial and install an operating system of your choice. If it doesn't work and you believe it should be supported, let us know at Parallels Forum. Parallels Tools for Linux require X Window System version 1.15–1.20 and Linux Kernel version 2.6.29–5.1. 
+ What if I need multiple licenses and license management? 
+Need Parallels Desktop for your team? Check out Parallels Desktop Business Edition.
+ Do you have educational pricing for students or faculty? 
+Parallels offers exclusive discounts for educational students currently enrolled in a qualified educational institution or professional educators who are currently employed. Educational discounts can save users up to 50% off by verifying their eligibility.
+ What is Parallels Desktop Pro Edition? 
+Parallels Desktop Pro Edition is packed with extra features, including:
+
+More Power: Parallels Desktop Pro Edition gives your virtual machines more processing power, up to 128 GB vRAM and 32 vCPUs per virtual machine.
+Network Conditioner – Simulate various internet connectivity speeds to test your applications.
+Visual Studio Plug-In – Develop software in one virtual machine and test in others—with just one click.
+Nested Virtualization Support – Support is available for the following: 
+                                                                                                                        
+VMware ESXi virtual machines
+Xen and kernel-based virtual machines in versions of Linux that support Xen and KV
+Android emulator for Visual Studio in Windows
+iPhone emulator for Visual Studio in Windows
+Xamarin.Android in Windows
+Android Studio in Windows
+Embarcadero RAD Studio in Windows
+Docker for Windows
+(experimental) Microsoft Visual Studio + TwinCat 3
+
+
+
+Learn more about Parallels Desktop Pro Edition.
+ How do I create a new virtual machine? 
+
+Download Parallels Desktop.
+Open Parallels Desktop.app from the Applications folder and choose File » New.
+Now you can create a new virtual machine for Mac, including a Windows VM on Mac.
+Get Windows from Microsoft or install freely available operating systems such as Ubuntu, Fedora, or other Linux systems supported by Parallels Desktop. See all Guest Operating Systems »
+
+ What is your return policy? 
+Parallels offers a 30-day money-back guarantee on all purchases made on parallels.com. If you purchased this from another retailer, please check their return policy.
+ Where can I get more info? 
+User guides and resources can be found on our Technical Documentation and Resources page. Or go to Support.
+Run Windows on Mac
+Fast, Powerful and Easy.The most trusted desktop virtualization software for over 13 years!
+
+New License
+Upgrade to Newest Version
+
+Download Free Trial
+The Parallels Desktop 30-day money-back guarantee ensures your satisfaction.
+Sent
+Success!
+Check your inbox from your computer and get started with your Parallels Desktop trial today!

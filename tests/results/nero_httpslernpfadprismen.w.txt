@@ -1,0 +1,79 @@
+
+Die Masse eines Körpers berechnest du, indem du das Volumen (V) mit der Dichte (ρ) multiplizierst. Siehe Kapitel Masse!
+
+Bevor du die Beispiele löst, schau dir die Videos mit den Erklärungen an.
+ 
+Achte bei allen Rechnungen darauf, ob die Angaben in der gleichen Einheit angegeben sind – wenn nicht: wandle auf eine gleiche Einheit um.
+Aufgaben
+
+Berechne die Masse eines Glasquaders mit a = 4 cm; b = 3 cm; h = 7 cm; ρ = 2,5 g/cm³
+Lösung: m = 210 g
+ Vollständig durchgerechnete Lösung
+Welche Masse hat 1 m³ Bausand, wenn ρ = 1,7 g/cm³.
+Lösung: m = 1 700 kg
+ Vollständig durchgerechnete Lösung
+Die Ladefläche eines Lastwagens hat die Maße: a = 4 m, b = 2,5 m, h = 0,5 m.
+a) Wie viel m³ Sand (ρ = 1,7 g/cm³) kann der LKW transportieren?
+b) Wie schwer ist die Ladung des LKW?
+Lösung: V = 9 m³, m = 15 300 kg
+ Vollständig durchgerechnete Lösung
+In einem Öltank befinden sich 20 000 Liter Heizöl. (1 l = 1 dm³)
+Welche Masse hat die Tankfüllung, wenn ρ = 0,92 g/cm³.
+Lösung: m = 18 400 kg
+ Vollständig durchgerechnete Lösung
+Eine 92 m² große Wohnung ist 2,50 m hoch.
+Wie viel kg Luft (ρ = 1,29 kg/m³) befindet sich in der Wohnung, wenn die Zwischenmauern nicht berücksichtigt werden?
+Lösung: m = 297,6 kg
+ Vollständig durchgerechnete Lösung
+Welche Masse hat eine 1 cm dicke Schaufensterscheibe, die 3 m lang und 2 m hoch ist? Dichte ρ = 2,5 g/cm³
+Lösung: m = 150 kg
+ Vollständig durchgerechnete Lösung
+Eine Verkehrstafel aus 2 mm starkem Eisenblech mit
+ρ = 7 870 kg/m³ hat die Form eines Quadrates mit 96 cm Kantenlänge.
+Wie groß ist ihre Masse? Gib das Ergebnis in kg an und runde auf eine Dezimalstelle.
+Lösung: m = 14,5 kg
+ Vollständig durchgerechnete Lösung
+Auf einem Dach (2 rechteckige Dachflächen) liegt Schnee. Eine Dachfläche ist 8 m lang und 4,6 m breit.
+a) Wie groß ist die Masse des Schnees, wenn der Schnee 50 cm hoch liegt und eine Dichte von ρ = 350 kg/m³ hat?
+b) Wie viele Männer von 80 kg haben dieselbe Masse wie diese Schneeschicht?
+Lösung: m = 12 600 kg, 161 Personen
+ Vollständig durchgerechnete Lösung
+Die Baugrube für ein Schwimmbad ist a = 27 m lang, 12 m breit und 2 m tief.
+a) Wie viel m³ Erde müssen ausgebaggert werden?
+b) Welche Masse hat das Erdreich, wenn ρ = 5 540 kg/m³? Gib das Ergebnis in Tonnen an.
+c) Ein LKW kann 30 Tonnen transportieren, wie viele LKW-Fuhren werden benötigt?
+Lösung: 648 m³ Erde, m = 3 589,92 t, 120 LKW Fahrten
+ Vollständig durchgerechnete Lösung
+Konditorlehrlinge stellten in Barcelona eine Riesentafel Schokolade her.
+Maße: 10 m x 5 m x 75 cm her.
+1 cm³ Schokolade hat die Masse von 1,6 g.
+Berechne die Masse der Riesentafel. Gib das Ergebnis in Tonnen an.
+Lösung: m = 60 t
+ Vollständig durchgerechnete Lösung
+Umkehraufgaben
+Die Dichte eines Körpers berechnest du, indem du die Masse (m) durch das Volumen (V) dividierst. Siehe Kapitel Dichte!
+
+Bevor du die Beispiele löst, schau dir die Videos mit den Erklärungen an.
+ 
+Achte bei allen Rechnungen darauf, ob die Angaben in der gleichen Einheit angegeben sind – wenn nicht: wandle auf eine gleiche Einheit um.
+
+
+Ein gerades gleichseitiges Prisma aus Glas hat eine Masse von 7,5 kg.
+Das Prisma ist 50 cm hoch und hat eine 60 cm2 große Grundfläche.
+Wie groß ist die Dichte des verwendeten Glases in kg/m³.
+Lösung: ρ = 2 500 kg/m³
+ Vollständig durchgerechnete Lösung
+Eine Sandkiste mit a = 4 m und b = 3,5 m wird mit 11,2 t Sand aufgeschüttet.
+Wie hoch liegt der Sand (ρ = 1 600 kg/m³)?
+Lösung: h = 0,5 m
+ Vollständig durchgerechnete Lösung
+Ein Quader aus Aluminium (ρ = 2 700 kg/m³) mit der Masse m = 9,45 kg hat eine Länge von 35 cm und ist 5 cm breit. Wie hoch ist der Quader?
+Lösung: h = 20 cm
+ Vollständig durchgerechnete Lösung
+Eine Marmorplatte hat eine Masse von 31,2 kg. (Marmor: ρ = 2,6 kg/dm³).
+Wie dick (hoch) ist die Platte, wenn sie 1,2 m lang und 25 cm breit ist?
+Lösung: h = 4 cm
+ Vollständig durchgerechnete Lösung
+Wie lang ist ein 2,5 m hohes und 4,5 m breites Wohnzimmer, wenn die Luft eine Masse von 87,075 kg hat? (Luft: ρ = 1,29 kg/m³).
+Lösung: a = 6 m
+ Vollständig durchgerechnete Lösung

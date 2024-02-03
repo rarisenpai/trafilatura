@@ -1,0 +1,967 @@
+Technique for dimensionality reduction
+"TSNE" redirects here. For the Boston-based organization, see Third Sector New England.
+Machine learning anddata mining
+Problems
+Classification
+Clustering
+Regression
+Anomaly detection
+AutoML
+Association rules
+Reinforcement learning
+Structured prediction
+Feature engineering
+Feature learning
+Online learning
+Semi-supervised learning
+Unsupervised learning
+Learning to rank
+Grammar induction
+
+
+Supervised learning(classification • regression)
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k-NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k-means
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean-shift
+
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+t-SNE
+
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+
+Anomaly detection
+k-NN
+Local outlier factor
+
+
+Artificial neural networks
+Autoencoder
+Deep learning
+DeepDream
+Multilayer perceptron
+RNN
+LSTM
+GRU
+Restricted Boltzmann machine
+GAN
+SOM
+Convolutional neural network
+U-Net
+
+
+Reinforcement learning
+Q-learning
+SARSA
+Temporal difference (TD)
+
+
+Theory
+Bias–variance dilemma
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+
+
+Machine-learning venues
+NeurIPS
+ICML
+ML
+JMLR
+ArXiv:cs.LG
+
+
+Glossary of artificial intelligence
+Glossary of artificial intelligence
+
+
+Related articles
+List of datasets for machine-learning research
+Outline of machine learning
+
+vte
+T-distributed Stochastic Neighbor Embedding (t-SNE) is a machine learning algorithm for visualization developed by Laurens van der Maaten and Geoffrey Hinton.[1] It is a nonlinear dimensionality reduction technique well-suited for embedding high-dimensional data for visualization in a low-dimensional space of two or three dimensions. Specifically, it models each high-dimensional object by a two- or three-dimensional point in such a way that similar objects are modeled by nearby points and dissimilar objects are modeled by distant points with high probability.
+The t-SNE algorithm comprises two main stages. First, t-SNE constructs a probability distribution over pairs of high-dimensional objects in such a way that similar objects have a high probability of being picked while dissimilar points have an extremely small probability of being picked. Second, t-SNE defines a similar probability distribution over the points in the low-dimensional map, and it minimizes the Kullback–Leibler divergence between the two distributions with respect to the locations of the points in the map. Note that while the original algorithm uses the Euclidean distance between objects as the base of its similarity metric, this should be changed as appropriate.
+t-SNE has been used for visualization in a wide range of applications, including computer security research,[2] music analysis,[3] cancer research,[4] bioinformatics,[5] and biomedical signal processing.[6] It is often used to visualize high-level representations learned by an artificial neural network.[7]
+While t-SNE plots often seem to display clusters, the visual clusters can be influenced strongly by the chosen parameterization and therefore a good understanding of the parameters for t-SNE is necessary. Such "clusters" can be shown to even appear in non-clustered data,[8] and thus may be false findings. Interactive exploration may thus be necessary to choose parameters and validate results.[9][10] It has been demonstrated that t-SNE is often able to recover well-separated clusters, and with special parameter choices, approximates a simple form of spectral clustering.[11]
+
+Contents
+
+1 Details
+2 Software
+3 References
+4 External links
+
+Details[edit]
+Given a set of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ high-dimensional objects 
+
+
+
+
+
+x
+
+
+1
+
+
+,
+…
+,
+
+
+x
+
+
+N
+
+
+
+
+{\displaystyle \mathbf {x} _{1},\dots ,\mathbf {x} _{N}}
+
+, t-SNE first computes probabilities 
+
+
+
+
+p
+
+i
+j
+
+
+
+
+{\displaystyle p_{ij}}
+
+ that are proportional to the similarity of objects 
+
+
+
+
+
+x
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {x} _{i}}
+
+ and 
+
+
+
+
+
+x
+
+
+j
+
+
+
+
+{\displaystyle \mathbf {x} _{j}}
+
+, as follows:
+
+
+
+
+
+
+p
+
+j
+∣
+i
+
+
+=
+
+
+
+exp
+⁡
+(
+−
+‖
+
+
+x
+
+
+i
+
+
+−
+
+
+x
+
+
+j
+
+
+
+‖
+
+2
+
+
+
+/
+
+2
+
+σ
+
+i
+
+
+2
+
+
+)
+
+
+
+∑
+
+k
+≠
+i
+
+
+exp
+⁡
+(
+−
+‖
+
+
+x
+
+
+i
+
+
+−
+
+
+x
+
+
+k
+
+
+
+‖
+
+2
+
+
+
+/
+
+2
+
+σ
+
+i
+
+
+2
+
+
+)
+
+
+
+,
+
+
+{\displaystyle p_{j\mid i}={\frac {\exp(-\lVert \mathbf {x} _{i}-\mathbf {x} _{j}\rVert ^{2}/2\sigma _{i}^{2})}{\sum _{k\neq i}\exp(-\lVert \mathbf {x} _{i}-\mathbf {x} _{k}\rVert ^{2}/2\sigma _{i}^{2})}},}
+
+
+As Van der Maaten and Hinton explained:  "The similarity of datapoint 
+
+
+
+
+x
+
+j
+
+
+
+
+{\displaystyle x_{j}}
+
+ to datapoint 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ is the conditional probability, 
+
+
+
+
+p
+
+j
+
+|
+
+i
+
+
+
+
+{\displaystyle p_{j|i}}
+
+, that 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ would pick 
+
+
+
+
+x
+
+j
+
+
+
+
+{\displaystyle x_{j}}
+
+ as its neighbor if neighbors were picked in proportion to their probability density under a Gaussian centered at 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+."[1]
+
+
+
+
+
+p
+
+i
+j
+
+
+=
+
+
+
+
+p
+
+j
+∣
+i
+
+
++
+
+p
+
+i
+∣
+j
+
+
+
+
+2
+N
+
+
+
+
+
+{\displaystyle p_{ij}={\frac {p_{j\mid i}+p_{i\mid j}}{2N}}}
+
+
+Moreover, the probabilities with 
+
+
+
+i
+=
+j
+
+
+{\displaystyle i=j}
+
+ are set to zero : 
+
+
+
+
+p
+
+i
+i
+
+
+=
+0
+
+
+{\displaystyle p_{ii}=0}
+
+
+The bandwidth of the Gaussian kernels 
+
+
+
+
+σ
+
+i
+
+
+
+
+{\displaystyle \sigma _{i}}
+
+ is set in such a way that the perplexity of the conditional distribution equals a predefined perplexity using the bisection method. As a result, the bandwidth is adapted to the density of the data: smaller values of 
+
+
+
+
+σ
+
+i
+
+
+
+
+{\displaystyle \sigma _{i}}
+
+ are used in denser parts of the data space.
+Since the Gaussian kernel uses the Euclidean distance 
+
+
+
+‖
+
+x
+
+i
+
+
+−
+
+x
+
+j
+
+
+‖
+
+
+{\displaystyle \lVert x_{i}-x_{j}\rVert }
+
+, it is affected by the curse of dimensionality, and in high dimensional data when distances lose the ability to discriminate, the 
+
+
+
+
+p
+
+i
+j
+
+
+
+
+{\displaystyle p_{ij}}
+
+ become too similar (asymptotically, they would converge to a constant). It has been proposed to adjust the distances with a power transform, based on the intrinsic dimension of each point, to alleviate this.[12]
+t-SNE aims to learn a 
+
+
+
+d
+
+
+{\displaystyle d}
+
+-dimensional map 
+
+
+
+
+
+y
+
+
+1
+
+
+,
+…
+,
+
+
+y
+
+
+N
+
+
+
+
+{\displaystyle \mathbf {y} _{1},\dots ,\mathbf {y} _{N}}
+
+ (with 
+
+
+
+
+
+y
+
+
+i
+
+
+∈
+
+
+R
+
+
+d
+
+
+
+
+{\displaystyle \mathbf {y} _{i}\in \mathbb {R} ^{d}}
+
+) that reflects the similarities  
+
+
+
+
+p
+
+i
+j
+
+
+
+
+{\displaystyle p_{ij}}
+
+ as well as possible. To this end, it measures similarities 
+
+
+
+
+q
+
+i
+j
+
+
+
+
+{\displaystyle q_{ij}}
+
+ between two points in the map 
+
+
+
+
+
+y
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {y} _{i}}
+
+ and 
+
+
+
+
+
+y
+
+
+j
+
+
+
+
+{\displaystyle \mathbf {y} _{j}}
+
+, using a very similar approach. Specifically, 
+
+
+
+
+q
+
+i
+j
+
+
+
+
+{\displaystyle q_{ij}}
+
+ is defined as:
+
+
+
+
+
+
+q
+
+i
+j
+
+
+=
+
+
+
+(
+1
++
+‖
+
+
+y
+
+
+i
+
+
+−
+
+
+y
+
+
+j
+
+
+
+‖
+
+2
+
+
+
+)
+
+−
+1
+
+
+
+
+
+∑
+
+k
+≠
+i
+
+
+(
+1
++
+‖
+
+
+y
+
+
+i
+
+
+−
+
+
+y
+
+
+k
+
+
+
+‖
+
+2
+
+
+
+)
+
+−
+1
+
+
+
+
+
+
+
+{\displaystyle q_{ij}={\frac {(1+\lVert \mathbf {y} _{i}-\mathbf {y} _{j}\rVert ^{2})^{-1}}{\sum _{k\neq i}(1+\lVert \mathbf {y} _{i}-\mathbf {y} _{k}\rVert ^{2})^{-1}}}}
+
+
+Herein a heavy-tailed Student t-distribution (with one-degree of freedom, which is the same as a Cauchy distribution) is used to measure similarities between low-dimensional points in order to allow dissimilar objects to be modeled far apart in the map. Note that also in this case we set 
+
+
+
+
+q
+
+i
+i
+
+
+=
+0
+
+
+{\displaystyle q_{ii}=0}
+
+
+The locations of the points 
+
+
+
+
+
+y
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {y} _{i}}
+
+ in the map are determined by minimizing the (non-symmetric) Kullback–Leibler divergence of the distribution 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ from the distribution 
+
+
+
+P
+
+
+{\displaystyle P}
+
+, that is:
+
+
+
+
+
+K
+L
+(
+P
+
+|
+
+
+|
+
+Q
+)
+=
+
+∑
+
+i
+≠
+j
+
+
+
+p
+
+i
+j
+
+
+log
+⁡
+
+
+
+p
+
+i
+j
+
+
+
+q
+
+i
+j
+
+
+
+
+
+
+{\displaystyle KL(P||Q)=\sum _{i\neq j}p_{ij}\log {\frac {p_{ij}}{q_{ij}}}}
+
+
+The minimization of the Kullback–Leibler divergence with respect to the points 
+
+
+
+
+
+y
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {y} _{i}}
+
+ is performed using gradient descent. The result of this optimization is a map that reflects the similarities between the high-dimensional inputs well.
+
+Software[edit]
+Laurens van der Maaten's t-Distributed Stochastic Neighbor Embedding https://lvdmaaten.github.io/tsne/
+ELKI contains tSNE, also with Barnes-Hut approximation. https://github.com/elki-project/elki/blob/master/elki/src/main/java/de/lmu/ifi/dbs/elki/algorithm/projection/TSNE.java
+References[edit]
+
+^ a b van der Maaten, L.J.P.; Hinton, G.E. (Nov 2008). "Visualizing Data Using t-SNE" (PDF). Journal of Machine Learning Research. 9: 2579–2605.
+
+^ Gashi, I.; Stankovic, V.; Leita, C.; Thonnard, O. (2009). "An Experimental Study of Diversity with Off-the-shelf AntiVirus Engines". Proceedings of the IEEE International Symposium on Network Computing and Applications: 4–11.
+
+^ Hamel, P.; Eck, D. (2010). "Learning Features from Music Audio with Deep Belief Networks". Proceedings of the International Society for Music Information Retrieval Conference: 339–344.
+
+^ Jamieson, A.R.; Giger, M.L.; Drukker, K.; Lui, H.; Yuan, Y.; Bhooshan, N. (2010). "Exploring Nonlinear Feature Space Dimension Reduction and Data Representation in Breast CADx with Laplacian Eigenmaps and t-SNE". Medical Physics. 37 (1): 339–351. doi:10.1118/1.3267037. PMC 2807447. PMID 20175497.
+
+^ Wallach, I.; Liliean, R. (2009). "The Protein-Small-Molecule Database, A Non-Redundant Structural Resource for the Analysis of Protein-Ligand Binding". Bioinformatics. 25 (5): 615–620. doi:10.1093/bioinformatics/btp035. PMID 19153135.
+
+^ Birjandtalab, J.; Pouyan, M. B.; Nourani, M. (2016-02-01). Nonlinear dimension reduction for EEG-based epileptic seizure detection. 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI). pp. 595–598. doi:10.1109/BHI.2016.7455968. ISBN 978-1-5090-2455-1.
+
+^ Visualizing Representations: Deep Learning and Human Beings Christopher Olah's blog, 2015
+
+^ "K-means clustering on the output of t-SNE". Cross Validated. Retrieved 2018-04-16.
+
+^ Pezzotti, Nicola; Lelieveldt, Boudewijn P. F.; Maaten, Laurens van der; Hollt, Thomas; Eisemann, Elmar; Vilanova, Anna (2017-07-01). "Approximated and User Steerable tSNE for Progressive Visual Analytics". IEEE Transactions on Visualization and Computer Graphics. 23 (7): 1739–1752. arXiv:1512.01655. doi:10.1109/tvcg.2016.2570755. ISSN 1077-2626. PMID 28113434.
+
+^ Wattenberg, Martin; Viégas, Fernanda; Johnson, Ian (2016-10-13). "How to Use t-SNE Effectively". Distill. Retrieved 4 December 2017.
+
+^ Linderman, George C.; Steinerberger, Stefan (2017-06-08). "Clustering with t-SNE, provably". arXiv:1706.02582 [cs.LG].
+
+^ Schubert, Erich; Gertz, Michael (2017-10-04). Intrinsic t-Stochastic Neighbor Embedding for Visualization and Outlier Detection. SISAP 2017 – 10th International Conference on Similarity Search and Applications. pp. 188–203. doi:10.1007/978-3-319-68474-1_13.
+
+
+External links[edit]
+Visualizing Data Using t-SNE, Google Tech Talk about t-SNE

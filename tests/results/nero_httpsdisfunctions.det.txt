@@ -1,0 +1,17 @@
+
+Ich benutze jetzt seit längerem Plex um Filme,Musik etc. zu verwalten und zu streamen. Allerdings hatte ich bis jetzt keine Möglichkeit gefunden Podcasts direkt einzubinden. Deshalb habe ich ein kleines Workarround gebastelt.
+Zunächst habe ich die URLs der Podcasts aus Rhythmbox exportiert:
+[sourcecode language=“bash“]xgrep -x ‚/rhythmdb/entry[@type=“podcast-feed“]/location/text()‘ ~/.local/share/rhythmbox/rhythmdb.xml | grep ^http | sort > links.txt[/sourcecode]
+Für xgrep gibt es ein Ubuntu- und Fedorapaket. Für Debian muss xgrep aus dem Quelltext gebaut werden, dafür ist das Paket xutils-dev notwendig.
+Um die Podcasts herunterzuladen verwende ich PodGrab. Da PodGrab bei mir von einem eigenen User ausgeführt wird und sich der Speicherort außerhalb des Verzeichnis befindet in dem PodGrab ausgeführt wird habe ich die Zeile download_directory = current_directory + os.sep + DOWNLOAD_DIRECTORY so angepasst, dass download_directory den Pfad zum Speicherort enthält.
+Jetzt können die einzelnen URLs in PodGrab importiert werden. Das habe ich mit einem kleinen Shellscript gemacht:
+[sourcecode language=“bash“]#!/bin/bash
+filename=$1
+for line in `cat $filename`
+do
+./PodGrab.py -s $line
+done
+./PodGrab.py -l
+exit 0[/sourcecode]
+PodGrab wird jetzt täglich durch einen cronjob mit der Option -d aufgerufen und lädt ggf. neue Episoden runter.
+Der Speicherort der Podcasts kann jetzt in Plex als Bibliothek hinzugefügt werden und wird täglich aktualisiert.

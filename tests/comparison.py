@@ -341,11 +341,11 @@ def run_readabilipy(htmlstring):
         return ''
 
 
-def run_resiliparse(htmlstring):
-    '''try with the resiliparse package'''
-    decoded = bytes_to_str(htmlstring, detect_encoding(htmlstring))
-    tree = HTMLTree.parse(decoded)
-    return extract_plain_text(tree, main_content=True)
+# def run_resiliparse(htmlstring):
+#     '''try with the resiliparse package'''
+#     decoded = bytes_to_str(htmlstring, detect_encoding(htmlstring))
+#     tree = HTMLTree.parse(decoded)
+#     return extract_plain_text(tree, main_content=True)
 
 
 def run_bs4(htmlstring):
@@ -609,14 +609,14 @@ for item in EVAL_PAGES:
     readabilipy_result['true negatives'] += tn
     readabilipy_result['false negatives'] += fn
     # resiliparse
-    start = time.time()
-    result = run_resiliparse(htmlstring)
-    resiliparse_result['time'] += time.time() - start
-    tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
-    resiliparse_result['true positives'] += tp
-    resiliparse_result['false positives'] += fp
-    resiliparse_result['true negatives'] += tn
-    resiliparse_result['false negatives'] += fn
+    # start = time.time()
+    # # result = run_resiliparse(htmlstring)
+    # resiliparse_result['time'] += time.time() - start
+    # tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
+    # resiliparse_result['true positives'] += tp
+    # resiliparse_result['false positives'] += fp
+    # resiliparse_result['true negatives'] += tn
+    # resiliparse_result['false negatives'] += fn
     # bs4
     start = time.time()
     result = run_bs4(htmlstring)

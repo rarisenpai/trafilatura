@@ -1,0 +1,22 @@
+Ever since Google Web Search API deprecation in 2011, I've been searching for an alternative. I need a way to get links from Google search into my Python script. So I made my own, and here is a quick guide on scraping Google searches with requests and Beautiful Soup.
+First, let's install the requirements. Save the following into a text file name requirements.txt
+requests bs4
+Then run the pip install -r requirements.txt to install the requirements. Then import it into your script.
+import urllib import requests from bs4 import BeautifulSoup
+To perform a search, Google expects the query to be in the parameters of the URL. Additionally, all spaces must be replace with a
+. To build the URL, we properly format the query and put it into the q parameter.
++
+query = "hackernoon How To Scrape Google With Python" query = query.replace(' ', '+') URL = f"https://google.com/search?q={query}"
+Google returns different search results for mobile vs. desktop. So depending on the use case, we need to specify appropriate user-agent.
+# desktop user-agent USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0" # mobile user-agent MOBILE_USER_AGENT = "Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
+Making the request is easy. However requests expects the user-agent to be in the headers. To properly set the headers, we must pass in a dictionary for the headers.
+headers = {"user-agent" : MOBILE_USER_AGENT} resp = requests.get(URL, headers=headers)
+Now we need to check if the request was successfully. The easiest way is to check the status code. If it returns a
+, then it was successfully. Then we need to put it into Beautiful Soup to parse the content.
+200
+if resp.status_code == 200: soup = BeautifulSoup(resp.content, "html.parser")
+Next is parsing the data and extracting all anchor links from the page. That is easy with Beautiful Soup. As we iterate through the anchors, we need to store the results into a list.
+results = [] for g in soup.find_all('div', class_='r'): anchors = g.find_all('a') if anchors: link = anchors[0]['href'] title = g.find('h3').text item = { "title": title, "link": link } results.append(item) print(results)
+That is it. This script is pretty simple and error-prone. But should get you started with your own Google Scraper. You can clone or download the entire script over at the git repo.
+There are also some caveats with scraping Google. If you perform too many requests over a short period, Google will start to throw captchas at you. This is annoying and will limit how much or how fast you scrape.
+That is why we created a RapidAPI Google Search API which lets you perform unlimited searches without worrying about captchas.
