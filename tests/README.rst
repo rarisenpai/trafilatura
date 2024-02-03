@@ -5,7 +5,7 @@ Reproducing the evaluation
 --------------------------
 
 1. Install the packages specified in ``eval-requirements.txt``
-2. Run the script ``comparison.py``
+2. Run the script ``comparison_nero.py``
 
 
 Sources
