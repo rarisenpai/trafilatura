@@ -367,8 +367,8 @@ for item in EVAL_PAGES:
         result = run_nero(htmlstring, url)['text']
     except Exception as e:
         result = ''
-    # with open(f"results/nero_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
-    #     f.write(result)
+    with open(f"results/nero_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
+        f.write(result)
     nero['time'] += time.time() - start
     tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
     nero['true positives'] += tp
@@ -404,9 +404,9 @@ for item in EVAL_PAGES:
     inscriptis_result['false negatives'] += fn
     # bare lxml
     start = time.time()
-    # result = run_baseline(htmlstring)
-    # # with open(f"results/baseline_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
-    #     f.write(result)
+    result = run_baseline(htmlstring)
+    with open(f"results/baseline_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
+        f.write(result)
     baseline_result['time'] += time.time() - start
     tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
     baseline_result['true positives'] += tp
@@ -417,10 +417,10 @@ for item in EVAL_PAGES:
     start = time.time()
     result = run_trafilatura(htmlstring)
     trafilatura_result['time'] += time.time() - start
-    # with open(f"results/trafilatura_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
-    #     if not result:
-    #         result = ''
-    #     f.write(result)
+    with open(f"results/trafilatura_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
+        if not result:
+            result = ''
+        f.write(result)
     tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
     trafilatura_result['true positives'] += tp
     trafilatura_result['false positives'] += fp
@@ -438,8 +438,8 @@ for item in EVAL_PAGES:
     # trafilatura + X
     start = time.time()
     result = run_trafilatura_fallback(htmlstring)
-    # with open(f"results/trafilatura_fallback_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
-    #     f.write(result)
+    with open(f"results/trafilatura_fallback_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
+        f.write(result)
     trafilatura_fallback_result['time'] += time.time() - start
     tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
     trafilatura_fallback_result['true positives'] += tp
@@ -449,8 +449,8 @@ for item in EVAL_PAGES:
     # trafilatura + precision
     start = time.time()
     result = run_trafilatura_precision(htmlstring)
-    # with open(f"results/trafilatura_precision_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
-    #     f.write(result) 
+    with open(f"results/trafilatura_precision_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
+        f.write(result) 
     trafilatura_precision['time'] += time.time() - start
     tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
     trafilatura_precision['true positives'] += tp
@@ -460,8 +460,8 @@ for item in EVAL_PAGES:
     # trafilatura + recall
     start = time.time()
     result = run_trafilatura_recall(htmlstring)
-    # with open(f"results/trafilatura_recall_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
-        # f.write(result)
+    with open(f"results/trafilatura_recall_{re.sub(r'[:/]', '',item_name)}.txt", 'w') as f:
+        f.write(result)
     trafilatura_recall['time'] += time.time() - start
     tp, fn, fp, tn = evaluate_result(result, EVAL_PAGES[item])
     trafilatura_recall['true positives'] += tp
